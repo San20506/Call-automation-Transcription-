@@ -1,0 +1,6 @@
+Category,Service,Price Model,Price,Link
+Compute (Diarization),AWS EC2 (g4dn.xlarge),Hourly On-Demand,$0.526 per hour,https://aws.amazon.com/ec2/pricing/on-demand/
+Transcription (Speech-to-Text),Sarvam AI,Pay-as-you-go,₹30 per hour (~$0.36),https://sarvam.ai/pricing
+Translation (LLM),Google Gemini 1.5 Pro,Pay-as-you-go (Tokens),"Input: $1.25 / 1M tokens
+Output: $5.00 / 1M tokens",https://ai.google.dev/pricing
+Storage,AWS S3 Standard,Storage / Month,~$0.023 per GB (Standard),https://aws.amazon.com/s3/pricing/

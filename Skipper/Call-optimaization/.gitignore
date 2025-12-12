@@ -1,0 +1,216 @@
+# ============================================================================
+# CRITICAL: Sensitive Data (NEVER COMMIT)
+# ============================================================================
+
+# Environment variables with API keys
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Backup files that might contain keys
+*.bak
+*.backup
+*_backup.py
+
+# ============================================================================
+# Python
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+
+# Audio files (can be large)
+input/*.mp3
+input/*.wav
+input/*.m4a
+input/*.flac
+
+# Output files (can regenerate)
+output/
+transcripts/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+cache/
+
+# Model weights (download as needed)
+models/
+*.pth
+*.bin
+*.ckpt
+
+# ============================================================================
+# IDE / Editor
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================================
+# Database
+# ============================================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# Documentation
+# ============================================================================
+
+# Generated docs
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================================================
+# Deployment
+# ============================================================================
+
+# Docker
+.dockerignore
+
+# Kubernetes
+k8s/secrets/
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# ============================================================================
+# Testing
+# ============================================================================
+
+# Test outputs
+test_output/
+test_results/
+
+# ============================================================================
+# KEEP THESE (Documentation)
+# ============================================================================
+
+# Keep template files
+!.env.template
+!config.template.py
+
+# Keep example files
+!examples/*.py
+
+# Keep test fixtures
+!tests/fixtures/*.wav
+!tests/fixtures/*.mp3
